@@ -1,4 +1,4 @@
-import React from 'react'
+import LineChart from '../../../components/charts/rectifier-info-charts/LineChart'
 
 const RectifierInfo = () => {
   return (
@@ -29,6 +29,10 @@ const RectifierInfo = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div>
+        <LineChart />
       </div>
     </main>
   )
