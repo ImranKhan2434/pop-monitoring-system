@@ -1,0 +1,21 @@
+.diagram-container {
+  height: 450px;
+
+  .react-flow__attribution {
+    visibility: hidden;
+  }
+
+  .diagram-header {
+    .react-flow__panel.top {
+      top: -15px;
+    }
+    .react-flow__panel.left {
+      left: -10px;
+    }
+  }
+  .hide-connector {
+    .react-flow__handle {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.summary-card {
+  height: max-content;
+  width: 48%;
+  display: flex;
+
+  .title {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: 600;
+
+    span {
+      margin-top: 7px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+  }
+}
